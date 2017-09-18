@@ -17,7 +17,7 @@ void prob1(){
     sum -= fifteen;
     fifteen += 15;
   }
-  printf("%d\n",sum);
+  printf("1) %d\n",sum);
 }
 
 void prob2(){
@@ -33,7 +33,7 @@ void prob2(){
     second = next;
     next = first + second;
   }
-  printf("%d\n",sum);
+  printf("2) %d\n",sum);
 }
 
 int main(){
